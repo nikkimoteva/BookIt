@@ -1,0 +1,10 @@
+{
+  "name":"Bookit",
+  "version":"1.0.0",
+  "dependencies": {
+    "http-errors": ">=1.7.1",
+    "express": ">=4.16.4",
+    "path": ">=0.12.7",
+    "cookie-parser": ">=1.4.3",
+    "morgan":">=1.9.1"
+}
