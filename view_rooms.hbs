@@ -1,0 +1,77 @@
+<style>
+.text{
+ position: absolute;
+ top: 50%;
+ right: 50%;
+}
+.button {
+ background-color: #4CAF50; /* Green */
+ border: none;
+ color: white;
+ padding: 15px 32px;
+ text-align: center;
+ text-decoration: none;
+ display: inline-block;
+ font-size: 24px;
+ margin: 4px 2px;
+ cursor: pointer;
+}
+</style>
+
+
+<!DOCTYPE html>
+    <html lang = "en-US">
+    <head>
+    <meta charset = "UTF-8">
+    <title>contact.php</title>
+    <style type = "text/css">
+        table, th, td {border: 1px solid black};
+    </style>
+    </head>
+    <body>
+    <p>
+
+<form align = "center">
+<table align="center">
+    <head> <font size= "15"><b><U>In Use</U></b></font> </head>
+    <caption>The following table shows the exact number of people in a building
+              and how busy that building is
+              <br>
+              <br>
+    </caption>
+    <br>
+    <font size= "20">
+    <thead>
+      <tr>
+        <th>Building</th>
+        <th>&nbsp Percentage Occupied &nbsp</th>
+        <th>Cluster</th>
+      </tr>
+    </thead>
+    <tbody>
+      <thread>
+      <tr>
+        <th>&nbsp {{Building}} &nbsp</th>
+      </thread>
+        <td>&nbsp {{percentDevices}}% &nbsp</td>
+        <td>&nbsp {{Occupation}} &nbsp</td>
+      </tr>
+      
+    </tbody>
+    </form>
+     </font>
+  </table>
+ </p>
+ </body>
+</html>
+
+<form align="center" action="/" method="get">
+    <button
+        id="start" class="button is-dark is-large">
+        <i class="far fa-play-circle">Go Back</i>
+    </button>
+</form>
+
+
+
+
